@@ -1,9 +1,5 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "MAS400 Website"
+    url: "https://mas400.com"
   - title: "About"
     url: /about/

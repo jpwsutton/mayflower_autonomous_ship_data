@@ -25,13 +25,6 @@ minimal_mistakes_skin: default
 search: true
 locale: "en-GB"
 teaser: /assets/images/default_teaser.jpg
-excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
-header:
-  overlay_image: /assets/images/mas_header.jpg
-  caption: "Mayflower Autonomous Ship - IBM"
-  actions:
-    - label: "More Info"
-      url: "https://unsplash.com"
 
 # Build settings
 markdown: kramdown
@@ -99,19 +92,20 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/ai_mayflower/"
 
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  tutorials:
+    output: true
+    permalink: /:collection/:path/
+  showcase:
+    output: true
+    permalink: /:collection/:path/
+
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      classes: wide
-      author_profile: false
-      read_time: true
-      comments: false
-      share: true
-      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -119,6 +113,42 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
+  # _tutorials
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "tutorials"
+  # _showcase
+  - scope:
+      path: ""
+      type: showcase
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "showcase"
 
 category_archive:
   type: liquid

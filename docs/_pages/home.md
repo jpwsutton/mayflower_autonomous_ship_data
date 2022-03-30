@@ -14,27 +14,21 @@ excerpt: >
   Technical documentation, tutorials and a showcase for using the Datafeeds and Data from the Mayflower Autonomous Ship.
 
 feature_row:
+  - image_path: /assets/images/cutaway_teaser.jpg
+    alt: "documentation"
+    title: "Documentation"
+    excerpt: "Find out about the different live feeds and historical data from the voyages of the Mayflower Autonomous Ship."
+    url: "/docs/quick-start-guide/"
   - image_path: /assets/images/default_teaser.jpg
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    alt: "tutorials"
+    title: "Tutorials"
+    excerpt: "Not sure where to start? Take a look at some example projects that use the live data feeds."
+    url: "/tutorials/"
+  - image_path: /assets/images/alone_teaser.jpg
+    alt: "showcase"
+    title: "Showcase"
+    excerpt: "A showcase of all the great projects that people have built so far!"
+    url: "/showcase/"   
 ---
 
 {% include feature_row %}
