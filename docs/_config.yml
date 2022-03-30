@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "James Sutton"
-  avatar : "/assets/images/profile_sq_100k.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Artie"
+  avatar : "/assets/images/artieprofile.jpeg"
+  bio    : "Stowaway seven legged octopus with an interest in IoT and Digital Twins"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -70,7 +70,7 @@ author:
       url: "https://twitter.com/AI_Mayflower"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jpwsutton"
+      url: "https://github.com/jpwsutton/mayflower_autonomous_ship_data"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/ai_mayflower/"
@@ -85,7 +85,7 @@ footer:
       url: "https://twitter.com/AI_Mayflower"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/jpwsutton"
+      url: "https://github.com/jpwsutton/mayflower_autonomous_ship_data"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/ai_mayflower/"
