@@ -23,6 +23,10 @@ twitter_username: jpwsutton
 github_username: jpwsutton
 minimal_mistakes_skin: default
 search: true
+locale: "en-GB"
+teaser: /assets/images/default_teaser.jpg
+header:
+  teaser: /assets/images/default_teaser.jpg
 
 # Build settings
 markdown: kramdown
