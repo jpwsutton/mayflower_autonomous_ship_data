@@ -1,18 +1,20 @@
 ---
 layout: splash
 permalink: /
-hidden: true
+hidden: false
+teaser: /assets/images/default_teaser.jpg
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mmas_header.jpg
+  overlay_image: /assets/images/mas_header.jpg
+  overlay_filter: rgba(94, 97, 108, 0.5)
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
+    - label: "<i class='fa-solid fa-book-open-cover'></i> Get Started"
       url: "/docs/quick-start-guide/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+  Technical documentation, tutorials and a showcase for using the Datafeeds and Data from the Mayflower Autonomous Ship.
+
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/default_teaser.jpg
     alt: "customizable"
     title: "Super customizable"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
