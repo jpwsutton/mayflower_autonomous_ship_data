@@ -9,7 +9,7 @@ header:
   overlay_filter: rgba(94, 97, 108, 0.5)
   actions:
     - label: "<i class='fa-solid fa-book-open-cover'></i> Get Started"
-      url: "/docs/quick-start-guide/"
+      url: "/docs/data-feeds/"
 excerpt: >
   Technical documentation, tutorials and a showcase for using the Datafeeds and Data from the Mayflower Autonomous Ship.
 
@@ -18,7 +18,7 @@ feature_row:
     alt: "documentation"
     title: "Documentation"
     excerpt: "Find out about the different live feeds and historical data from the voyages of the Mayflower Autonomous Ship."
-    url: "/docs/quick-start-guide/"
+    url: "/docs/data-feeds/"
   - image_path: /assets/images/default_teaser.jpg
     alt: "tutorials"
     title: "Tutorials"

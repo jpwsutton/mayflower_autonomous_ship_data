@@ -3,6 +3,8 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+The Mayflower Autonomous Ship (MAS) is a grass roots initiative led by marine research non-profit ProMare with support from IBM and a global consortium of partners. Working in tandem with oceanographers and other vessels, MAS provides a flexible, cost-effective and safe option for gathering critical data about the ocean. It can spend long durations at sea, carrying scientific equipment and making its own decisions about how to optimize its route and mission.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+This unnoficial website docouments the live data feeds, historical data as well as tutorials to use it and a showcase of projects made around the MAS.
+
+---
