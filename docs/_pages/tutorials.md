@@ -5,6 +5,7 @@ permalink: /tutorials/
 collection: tutorials
 entries_layout: grid
 classes: wide
+author_profile: false
 ---
 
-Sample document listing for the collection `_tutorials`.
+These tutorials will help you get started with the MAS400 data feeds.

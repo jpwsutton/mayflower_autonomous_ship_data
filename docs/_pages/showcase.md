@@ -5,7 +5,7 @@ permalink: /showcase/
 collection: showcase
 entries_layout: grid
 classes: wide
-author: false
+author_profile: false
 ---
 
-Sample document listing for the collection `_showcase`.
+This is a showcase of all them amazing projects people have made related the the Mayflower Autonomous Ship. If you would like to show your project off here, 

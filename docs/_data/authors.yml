@@ -1,0 +1,33 @@
+Artie:
+  name   : "Artie"
+  avatar : "/assets/images/artieprofile.jpeg"
+  bio    : "Stowaway seven legged octopus with an interest in IoT and Digital Twins"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://mas400.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/AI_Mayflower"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jpwsutton/mayflower_autonomous_ship_data"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/ai_mayflower/"
+
+
+jpwsutton:
+  name   : "James Sutton"
+  avatar : "/assets/images/profile_sq_100k.jpg"
+  bio    : "Software Engineer in IBM Research UK"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jsutton.co.uk"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/jpwsutton"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/jpwsutton/"
