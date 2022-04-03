@@ -1,6 +1,8 @@
 # mayflower_autonomous_ship_data
 Public Documentation for how to access and interpret the Mayflower Autonomous Ship's data feeds.
 
+You can view the documentation here: https://jpwsutton.github.io/mayflower_autonomous_ship_data/
+
 ## Contribution
 
 If you spot an error, or would like to add documentation, tutorials or even add your own project to the showcase, please fork this repository and submit a pull request with your changes.

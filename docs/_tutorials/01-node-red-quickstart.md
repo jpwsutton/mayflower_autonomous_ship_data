@@ -5,6 +5,8 @@ excerpt: "How to quickly get your own MAS400 map set up with Node-RED"
 last_modified_at: 2022-03-30T20:48:05-04:00
 classes: wide
 author: jpwsutton
+header:
+  teaser: /assets/images/tut-01-node-red-worldmap-info.png
 ---
 
 In this Tutorial, you'll see how you can set up your own map to monitor the location, and status of the MAS in your own custom dashboard built on [Node-RED](https://nodered.org/).
