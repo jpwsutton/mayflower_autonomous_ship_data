@@ -196,7 +196,7 @@ One of the experiments onboard the MAS is looking at how to optimise machine lea
 }
 ```
 
-**Note:** This was an off the shelf object detection model and was not built specifcially for the environment the MAS is in (the sea), or the cameras (Wide angle, with Infra Red at night). As such, you may see some bizzare classifications and you should not rely on this data to be 100% accurate.
+**Note:** This object detection model was not built specifcially for the environment the MAS is in (the sea), or the cameras (Wide angle, with Infra Red at night). As such, you may see some entertaining / bizzare classifications for objects. Please be assured that this is absolutely fine!
 {: .notice--warning}
 
 
