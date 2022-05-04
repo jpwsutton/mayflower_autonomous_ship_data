@@ -252,6 +252,81 @@ __Topic:__ `science/science_pod/system/etsMasPi<1,2,3,4>`
 | throttleThrottled | boolean | Set to true if the Pi is currently Throttled |
 | throttleSoftTempLimit | boolean | Set to true if the Pi has throttled due to the CPU temperature getting to hot |
 
+**JSON Example**
+```
+{
+    "timestamp": 1651688203,
+    "environment": {
+        "temperatureC": 41.71,
+        "humidity": 19.703760135651397,
+        "pressureHPA": 1020.9364672979422
+    },
+    "ups": {
+        "batteryCapacity": 100,
+        "batteryCharge": 100,
+        "batteryVoltage": 10.09,
+        "inputVoltage": 12.01,
+        "outputVoltage": 12.01,
+        "batteryTemperature": 41
+    },
+    "experiments": {
+        "hydrophone": "RUNNING",
+        "gnssimu": "RUNNING",
+        "video": "RUNNING",
+        "tds": "RUNNING"
+    },
+    "system": {
+        "etsMasPi1": {
+            "freeMemory": 2374.160384,
+            "cpuLoad": 0.07,
+            "cpuVolts": 0.8438,
+            "cpuClock": 0.3333208,
+            "cpuTemp": 55.5,
+            "diskRoot": 4.85222,
+            "throttleUndervolt": false,
+            "throttleFrequency": false,
+            "throttleThrottled": false,
+            "throttleSoftTempLimit": false
+        },
+        "etsMasPi2": {
+            "freeMemory": 95.06816,
+            "cpuLoad": 1.07,
+            "cpuVolts": 0.8688,
+            "cpuClock": 0.500000992,
+            "cpuTemp": 60.3,
+            "diskRoot": 2.623864,
+            "throttleUndervolt": false,
+            "throttleFrequency": false,
+            "throttleThrottled": false,
+            "throttleSoftTempLimit": false
+        },
+        "etsMasPi3": {
+            "freeMemory": 266.801152,
+            "cpuLoad": 0.4,
+            "cpuVolts": 0.8438,
+            "cpuClock": 0.500000992,
+            "cpuTemp": 54,
+            "diskRoot": 11.696636,
+            "throttleUndervolt": false,
+            "throttleFrequency": false,
+            "throttleThrottled": false,
+            "throttleSoftTempLimit": false
+        },
+        "etsMasPi4": {
+            "freeMemory": 109.604864,
+            "cpuLoad": 4.09,
+            "cpuVolts": 0.8563,
+            "cpuClock": 0.500000992,
+            "cpuTemp": 69.1,
+            "diskRoot": 2.684844,
+            "throttleUndervolt": false,
+            "throttleFrequency": false,
+            "throttleThrottled": false,
+            "throttleSoftTempLimit": false
+        }
+    }
+}
+```
 
 
 ### depth
@@ -268,6 +343,18 @@ __Topic:__ `science/depth/#`
 | depthUnits | string | The depth units from the sensor (M) - Meters | 
 | pressure | integer | The current water pressure. | 
 | pressureUnits | string | The pressure units from the sensor (dbar) |
+
+**JSON Example**
+
+```
+{
+    "timestamp": "2022-05-02T07:13:26.000Z",
+    "depth": 0,
+    "depthUnits": "M",
+    "pressure": 0,
+    "pressureUnits": "dBar"
+}
+```
 
 
 ### fluorometer
@@ -300,6 +387,30 @@ __Topic:__ `science/fluorometer`
 | intTemp | float |  |
 | gain | float |  |
 
+**JSON Example**
+
+```
+{
+    "timestamp": "2022-05-02T07:21:47.000Z",
+    "ChlAc2": 0,
+    "ChlBc2": 0,
+    "phycoerythrin2": 0,
+    "phycocyanin2": 0.468,
+    "turb": 142,
+    "ABS1": 0.104,
+    "ABS2": 0.182,
+    "ABS3": 0.179,
+    "ABS4": 0.163,
+    "ChlAc3": 0,
+    "ChlBc3": 0,
+    "phycoerythrin3": 0,
+    "phycocyanin3": 0.373,
+    "intTemp": 20.557,
+    "gain": 3
+}
+```
+
+
 ### ctd
 
 A CTD (Conductivity, Temperature, Depth) sensor from [Valeport](https://www.valeport.co.uk/product-types/ctd-environmental/) is installed which allows us to track the depth, temperature, and salinity of the water.
@@ -315,6 +426,19 @@ __Topic:__ `science/ctd`
 | soundSpeedms1 | float | Sound velocity in the water in m/s |
 | salinity | float | Salinity of sea water in PSU |
 | densitykgm3 | float | Density of the sea water in kg/m3 |
+
+**JSON Example**
+
+```
+{
+    "timestamp": "2022-05-02T07:21:47.000Z",
+    "pressDepth": 0.605,
+    "temperatureDegC": 13.887,
+    "soundSpeedms1": 1504.696,
+    "salinity": 36.329,
+    "densitykgm3": 1027.242
+}
+```
 
 
 ### o2
@@ -340,6 +464,26 @@ __Topic:__ `science/o2`
 | c1AmpvV | float | Amplitude measurement with blue excitation light (mv)|
 | c2AmpvV | float | Amplitude measurement with red excitation light (mv) |
 | rawTemp | float | Voltage from thermistor bridge.  (mV) |
+
+**JSON Example**
+
+```
+{
+    "timestamp": "2022-05-04T18:27:17.000Z",
+    "measurement1": 4835,
+    "measurement2": 1008,
+    "o2Concentration": 323.443,
+    "airSaturationPct": 103.238,
+    "temperatureDegC": 15.242,
+    "calPhaseDeg": 29.869,
+    "tcPhaseDeg": 32.145,
+    "c1rphDeg": 38.783,
+    "c2rphDeg": 6.638,
+    "c1AmpvV": 654.3,
+    "c2AmpvV": 901.8,
+    "rawTemp": 423.4
+}
+```
 
 
 ## Future planned feeds
